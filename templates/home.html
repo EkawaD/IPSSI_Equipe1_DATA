@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <title>Projet Data : Young Survey</title>
-</head>
-<body>
+    <head>
+        <title>Projet Data : Young Survey</title>
+    </head>
+    <body>
 
-    <h1>Young Survey Data Project </h1>
-    <p>ton musique preferer est : {{music}}</p>
+        {% block content %}
+            <h1>Young Survey Data Project </h1>
+            {% include 'formulaire.html' %}
+        {% endblock %}
 
-</body>
+        <img src="{{ url }}" alt="graph" height="auto" width="50%">
+
+    </body>
 </html>
