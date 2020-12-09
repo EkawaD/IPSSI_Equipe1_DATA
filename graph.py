@@ -22,4 +22,4 @@ class Graph:
 
         return '/static/graph/tab_lonely.jpg'
 
-    def 
+
