@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\kawa\Google Drive\School\IPSSI\Python\Dataset\venv"
+VIRTUAL_ENV="C:\Users\kawa\Desktop\Young_survey_data_team1\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
