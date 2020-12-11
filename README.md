@@ -15,4 +15,6 @@ Le front a été réalisé à l'aide du module FLASK https://flask.palletsprojec
 Nous aurions aimé mettre le projet en production mais le manque de temps nous contraint à laisser le projet en état.
 Voici donc quelques visuels pour se projeter : 
 
-IMG 1 / IMG 2 / IMG 3
+![image](https://user-images.githubusercontent.com/55327310/101895844-5b76f800-3ba8-11eb-8a46-d786349f1e55.png)
+
+
