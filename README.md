@@ -3,8 +3,8 @@
 Après délibération et moults discussions au sein de l'équipe 1 DATA, il a été décidé de choisir un ensemble de donnée large afin de multiplier nos axes de recherche.
 Ainsi à partir du kaggle https://www.kaggle.com/miroslavsabo/young-people-survey, nous nous sommes penchés sur deux axes de recherche : 
 
-##### - Que font et qui sont les personnes qui se disent 'heureuse' ?
-##### - En quoi notre personalité influe-t-elle sur la musique que nous écoutons ?
+#### - Que font et qui sont les personnes qui se disent 'heureuse' ?
+#### - En quoi notre personalité influe-t-elle sur la musique que nous écoutons ?
 
 Pour se faire, nous avons réalisé un front web qui permet de visualiser différents graphiques.
 
