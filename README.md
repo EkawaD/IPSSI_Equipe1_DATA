@@ -19,5 +19,8 @@ Voici donc quelques visuels pour se projeter :
 
 ![image](https://user-images.githubusercontent.com/55327310/101895921-78abc680-3ba8-11eb-8a56-a9fc789a79c8.png)
 
+![image](https://user-images.githubusercontent.com/55327310/101896083-ba3c7180-3ba8-11eb-9282-7698b86ac936.png)
+
+
 
 
