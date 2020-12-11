@@ -13,22 +13,27 @@
             list-style-type: square;
             }
             #grad1 {
-                background-image: url("imged.jpg");
+                background-image: url("static/bg.jpg");
                 background-color: #cccccc; /* Used if the image is unavailable */
                 background-position: center; /* Center the image */
                 background-repeat: no-repeat; /* Do not repeat the image */
                 background-size: cover; 
             }
+            .transparent {
+            background-color: rgba(255,255,255,0.5);
+            }
         </style>
     </head>
     <body>
         <div class="jumbotron text-center" style="margin-bottom:0" id="grad1">
-            <h1>Slovak story</h1>
-            <p>Explore the preferences, interests, habits, opinions, and fears of young slovak people !</p> 
-            <div class="font-italic">
-                Après délibération et moults discussions au sein de l'équipe 1 DATA, il a été décidé de choisir un ensemble de donnée large afin de multiplier nos axes de recherche.
-                <br>- Que font et qui sont les personnes qui se disent 'heureuse' ?
-                <br>- En quoi notre personalité influe-t-elle sur la musique que nous écoutons ?
+            <div class='transparent'>
+                <h1>Slovak story</h1>
+                <p>Explore the preferences, interests, habits, opinions, and fears of young slovak people !</p> 
+                <div class="font-italic">
+                    Après délibération et moults discussions au sein de l'équipe 1 DATA, il a été décidé de choisir un ensemble de donnée large afin de multiplier nos axes de recherche.
+                    <br>- Que font et qui sont les personnes qui se disent 'heureuse' ?
+                    <br>- En quoi notre personalité influe-t-elle sur la musique que nous écoutons ?
+                </div>
             </div>
         </div>
 
@@ -78,15 +83,4 @@
             <a href="https://www.kaggle.com/miroslavsabo/young-people-survey">Lien Kaggle</a>
         </div>
     </body>
-</html>
-
-
-
-
-
-  
-  
-
-
-</body>
 </html>
