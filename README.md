@@ -1,4 +1,4 @@
-# Young_survey_data_team1
+# YOUNG SURVEY DATA : L'histoire des étudiants slovaques !
 
 Après délibération et moults discussions au sein de l'équipe 1 DATA, il a été décidé de choisir un ensemble de donnée large afin de multiplier nos axes de recherche.
 Ainsi à partir du kaggle https://www.kaggle.com/miroslavsabo/young-people-survey, nous nous sommes penchés sur deux axes de recherche : 
