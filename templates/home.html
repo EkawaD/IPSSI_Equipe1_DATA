@@ -1,16 +1,85 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Projet Data : Young Survey</title>
+        <title>Slovak story : Team 1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            ul.b {
+            list-style-type: square;
+            }
+        </style>
     </head>
     <body>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1>Slovak story</h1>
+            <p>Explore the preferences, interests, habits, opinions, and fears of young slovak people !</p> 
+            <div class="font-italic">
+                Après délibération et moults discussions au sein de l'équipe 1 DATA, il a été décidé de choisir un ensemble de donnée large afin de multiplier nos axes de recherche.
+                <br>- Que font et qui sont les personnes qui se disent 'heureuse' ?
+                <br>- En quoi notre personalité influe-t-elle sur la musique que nous écoutons ?
+            </div>
+        </div>
 
-        {% block content %}
-            <h1>Young Survey Data Project </h1>
-            {% include '_formulaire.html' %}
-        {% endblock %}
-
-        <img src="{{ url }}" alt="graph" height="auto" width="50%">
-
+        <div class="container-fluid" style="margin-top:50px">
+            <div class="row">
+              <div class="col-sm-5" style="margin-left:100px">
+                <h2>Introduction</h2>
+                <p>In 2013, students of the Statistics class at FSEV UK were asked to invite their friends to
+                  participate in this survey.</p>
+                <ul calss="b">
+                  <li>The data file (responses.csv) consists of 1010 rows and 150 columns (139
+                      integer and 11 categorical).</li>
+                  <li>For convenience, the original variable names were shortened in the
+                      data file. See the columns.csv file if you want to match the data with the original names.</li>
+                  <li>The data contain missing values.</li>
+                  <li>The survey was presented to participants in both electronic and written form.</li>
+                  <li>The original questionnaire was in Slovak language and was later translated
+                      into English.</li>
+                  <li>All participants were of Slovakian nationality, aged between 15-30.</li>
+                </ul><br>
+                  <p>The variables can be split into the following groups:</p>
+                <ul class="b">    
+                  <li>Music preferences (19 items)</li>
+                  <li>Movie preferences (12 items)</li>
+                  <li>Hobbies & interests (32 items)</li>
+                  <li>Phobias (10 items)</li>
+                  <li>Health habits (3 items)</li>
+                  <li>Personality traits, views on life, & opinions (57 items)</li>
+                  <li>Spending habits (7 items)</li>
+                  <li>Demographics (10 items)</li>
+                </ul>
+                <hr class="d-sm-none">
+              </div>
+                <div class="col-sm-5 text-center mb-4">
+                    {% block graph %}
+                        <h1>Please choose a graph : </h1>
+                        {% include '_formulaire.html' %}
+                        <img src="{{ url }}" alt="Please choose a graph..." height="auto" width="80%">
+                        {% if url != '' %}
+                            <p><span class='font-weight-bold'>Conclusion : </span> {{comment}} </p>
+                        {% endif %}
+                    {% endblock %} 
+                </div>  
+            </div>
+        </div> 
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <a href="https://www.kaggle.com/miroslavsabo/young-people-survey">Lien Kaggle</a>
+        </div>
     </body>
+</html>
+
+
+
+
+
+  
+  
+
+
+</body>
 </html>
